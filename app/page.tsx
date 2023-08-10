@@ -22,7 +22,7 @@ export default function Home() {
       >
         Cikitsa
       </h1>
-      <div className='flex flex-row w-full flex-wrap justify-evenly'>
+      <div className='flex flex-row w-full flex-wrap justify-evenly px-24'>
         {data.symptoms.map((symptom: Symptom, index: number) => (
           <SymptomBox key={index} symptom={symptom} />
         ))}
