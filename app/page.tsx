@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Link from 'next/link'
 import { SymptomBox } from './components/SymptomBox'
 import data from './data.json'
 
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className='flex flex-col items-center'>
       <h1
-        className='text-9xl font-black mt-16 mb-8'
+        className='text-9xl font-black mt-8 mb-16'
         style={{
           letterSpacing: '-3px',
           backgroundImage: 'linear-gradient(180deg, #555, #000)',
@@ -26,6 +26,14 @@ export default function Home() {
         {data.symptoms.map((symptom: Symptom, index: number) => (
           <SymptomBox key={index} symptom={symptom} />
         ))}
+      </div>
+      <div className='w-80 flex justify-evenly'>
+        <Link href='/qna' type='button' className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+          Predict Disease
+        </Link>
+        <button type='button' className='text-black border font-bold py-2 px-4 rounded'>
+          Cancel
+        </button>
       </div>
     </main>
   )
