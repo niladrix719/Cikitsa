@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -13,11 +14,11 @@ const Navbar = () => {
             WebkitTextFillColor: 'transparent',
           }}
         >
-          Cikitsa
+          <Link href='/'>Cikitsa</Link>
         </h1>
       </div>
       <div className='flex space-x-10 items-center'>
-        <h1 className='cursor-pointer'>Home</h1>
+        <Link href='/' className='cursor-pointer'>Home</Link>
         <h1 className='cursor-pointer'>About</h1>
         <h1 className='cursor-pointer'>Help Improve Predictions</h1>
         <h1 className='cursor-pointer'>Login</h1>

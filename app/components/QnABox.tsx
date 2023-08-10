@@ -1,7 +1,11 @@
 'use client'
 import React, { useState } from 'react';
 
-const QnABox = () => {
+type QnAProps = {
+  setQuestionNumber: React.Dispatch<React.SetStateAction<number>>;
+};
+
+const QnABox = (props: QnAProps) => {
   const [selectedOption, setSelectedOption] = useState('');
   const [inputValue, setInputValue] = useState('');
 
@@ -37,9 +41,9 @@ const QnABox = () => {
           type='text'
           value={inputValue}
           onChange={handleInputChange}
-          className='border-b-2 border-black w-64 px-4 py-2 focus:outline-none'
+          className='border-b-2 border-black w-96 px-2 py-2 focus:outline-none'
         />
-        <div className='absolute top-1/2 transform -translate-y-1/2 right-4 text-gray-700 pointer-events-none'>
+        <div className='absolute top-1/2 transform -translate-y-1/2 right-[-1.1rem] text-gray-700 pointer-events-none'>
           <svg xmlns='http://www.w3.org/2000/svg' className='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
             <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M9 5l7 7-7 7'></path>
           </svg>
