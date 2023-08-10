@@ -1,0 +1,255 @@
+{
+    "symptoms": [
+      {
+        "name": "Fever",
+        "description": "Elevated body temperature, often a sign of infection or inflammation.",
+        "image": "https://example.com/fever.jpg"
+      },
+      {
+        "name": "Cough",
+        "description": "A sudden, forceful expulsion of air from the lungs, typically caused by respiratory infections or irritants.",
+        "image": "https://example.com/cough.jpg"
+      },
+      {
+        "name": "Shortness of Breath",
+        "description": "Difficulty breathing, which may indicate respiratory, cardiovascular, or other systemic issues.",
+        "image": "https://example.com/shortness_of_breath.jpg"
+      },
+      {
+        "name": "Fatigue",
+        "description": "Persistent tiredness and lack of energy, often associated with various medical conditions.",
+        "image": "https://example.com/fatigue.jpg"
+      },
+      {
+        "name": "Muscle or Joint Pain",
+        "description": "Aching or discomfort in muscles or joints, which can be caused by infections, inflammation, or other factors.",
+        "image": "https://example.com/muscle_joint_pain.jpg"
+      },
+      {
+        "name": "Headache",
+        "description": "Pain or discomfort in the head, often due to tension, migraines, or other underlying causes.",
+        "image": "https://example.com/headache.jpg"
+      },
+      {
+        "name": "Nausea and Vomiting",
+        "description": "Feeling of sickness and the act of expelling stomach contents, commonly caused by infections, pregnancy, or other factors.",
+        "image": "https://example.com/nausea_vomiting.jpg"
+      },
+      {
+        "name": "Diarrhea",
+        "description": "Frequent, loose, or watery bowel movements, often caused by infections, dietary issues, or other factors.",
+        "image": "https://example.com/diarrhea.jpg"
+      },
+      {
+        "name": "Skin Rash",
+        "description": "Change in the skin's appearance, texture, or color, which may result from allergies, infections, or other causes.",
+        "image": "https://example.com/skin_rash.jpg"
+      },
+      {
+        "name": "Swelling",
+        "description": "Abnormal enlargement of body parts, often caused by inflammation, fluid retention, or other factors.",
+        "image": "https://example.com/swelling.jpg"
+      },
+      {
+        "name": "Weight Loss or Gain",
+        "description": "Unintentional loss or gain of body weight, which may indicate underlying health issues.",
+        "image": "https://example.com/weight_loss_gain.jpg"
+      },
+      {
+        "name": "Chest Pain",
+        "description": "Discomfort or pain in the chest area, which could be related to heart, lung, or digestive issues.",
+        "image": "https://example.com/chest_pain.jpg"
+      },
+      {
+        "name": "Vision Changes",
+        "description": "Alterations in vision, such as blurriness, double vision, or loss of vision, which may result from eye conditions or systemic diseases.",
+        "image": "https://example.com/vision_changes.jpg"
+      },
+      {
+        "name": "Difficulty Swallowing",
+        "description": "Sensation of blockage or discomfort while swallowing, often associated with throat infections, gastroesophageal reflux, or other conditions.",
+        "image": "https://example.com/difficulty_swallowing.jpg"
+      },
+      {
+        "name": "Changes in Urination",
+        "description": "Variations in urination patterns, such as frequency, color, or pain, which may indicate urinary tract infections, kidney issues, or diabetes.",
+        "image": "https://example.com/urination_changes.jpg"
+      },
+      {
+        "name": "Sore Throat",
+        "description": "Pain, irritation, or scratchiness in the throat, often caused by infections like strep throat or viral illnesses.",
+        "image": "https://example.com/sore_throat.jpg"
+      },
+      {
+        "name": "Chills",
+        "description": "Uncontrollable shivering or cold sensation, often accompanying fever and indicating an infection.",
+        "image": "https://example.com/chills.jpg"
+      },
+      {
+        "name": "Dizziness",
+        "description": "Feeling lightheaded, unsteady, or off-balance, which can result from various factors, including inner ear problems or low blood pressure.",
+        "image": "https://example.com/dizziness.jpg"
+      },
+      {
+        "name": "Nasal Congestion",
+        "description": "Blockage or stuffiness in the nasal passages, commonly associated with respiratory infections or allergies.",
+        "image": "https://example.com/nasal_congestion.jpg"
+      },
+      {
+        "name": "Sweating",
+        "description": "Excessive sweating beyond what is considered normal, often indicative of underlying health issues.",
+        "image": "https://example.com/sweating.jpg"
+      },
+      {
+        "name": "Weakness",
+        "description": "Lack of physical or mental strength, often accompanied by fatigue, and may be caused by various medical conditions.",
+        "image": "https://example.com/weakness.jpg"
+      },
+      {
+        "name": "Loss of Appetite",
+        "description": "Reduced desire to eat or lack of interest in food, which can be a symptom of infections, gastrointestinal issues, or mental health conditions.",
+        "image": "https://example.com/loss_of_appetite.jpg"
+      },
+      {
+        "name": "Confusion",
+        "description": "Mental state characterized by disorientation, lack of clarity, or difficulty thinking and making decisions, often associated with infections, neurological problems, or medication reactions.",
+        "image": "https://example.com/confusion.jpg"
+      },
+      {
+        "name": "Chest Tightness",
+        "description": "Sensation of pressure or tightness in the chest, which could be related to heart-related issues, respiratory conditions, or anxiety.",
+        "image": "https://example.com/chest_tightness.jpg"
+      },
+      {
+        "name": "Unexplained Bruising or Bleeding",
+        "description": "Appearance of bruises or bleeding without obvious cause, which may indicate blood disorders, trauma, or other health conditions.",
+        "image": "https://example.com/unexplained_bruising_bleeding.jpg"
+      },
+      {
+        "name": "Abdominal Pain",
+        "description": "Discomfort or pain in the abdominal area, which may indicate gastrointestinal, reproductive, or urinary tract issues.",
+        "image": "https://example.com/abdominal_pain.jpg"
+      },
+      {
+        "name": "Sensitivity to Light or Sound",
+        "description": "Increased sensitivity to light (photophobia) or sound (phonophobia), often associated with migraines or certain neurological conditions.",
+        "image": "https://example.com/sensitivity_to_light_sound.jpg"
+      },
+      {
+        "name": "Swollen Lymph Nodes",
+        "description": "Enlarged lymph nodes, which may be a sign of infections, autoimmune diseases, or cancer.",
+        "image": "https://example.com/swollen_lymph_nodes.jpg"
+      },
+      {
+        "name": "Numbness or Tingling",
+        "description": "Abnormal sensations of numbness or tingling in various body parts, often related to nerve compression, diabetes, or other neurological conditions.",
+        "image": "https://example.com/numbness_tingling.jpg"
+      },
+      {
+        "name": "Changes in Bowel Habits",
+        "description": "Alterations in bowel movements, such as frequency, consistency, or color, which may indicate gastrointestinal disorders, dietary issues, or infections.",
+        "image": "https://example.com/changes_in_bowel_habits.jpg"
+      },
+      {
+        "name": "Thirst",
+        "description": "Excessive feeling of needing to drink fluids, often associated with dehydration or certain medical conditions.",
+        "image": "https://example.com/thirst.jpg"
+      },
+      {
+        "name": "Mood Changes",
+        "description": "Fluctuations in emotional state, such as irritability, sadness, or anxiety, which could be related to mental health conditions or other factors.",
+        "image": "https://example.com/mood_changes.jpg"
+      },
+      {
+        "name": "Hair Loss",
+        "description": "Thinning or loss of hair from the scalp or other body parts, often caused by genetic factors, hormonal changes, or medical conditions.",
+        "image": "https://example.com/hair_loss.jpg"
+      },
+      {
+        "name": "Dry Skin",
+        "description": "Skin that is rough, scaly, or lacks moisture, often resulting from environmental factors, skin conditions, or systemic issues.",
+        "image": "https://example.com/dry_skin.jpg"
+      },
+      {
+        "name": "Frequent Infections",
+        "description": "Recurring or persistent infections, which may indicate a weakened immune system or underlying health conditions.",
+        "image": "https://example.com/frequent_infections.jpg"
+      },
+      {
+        "name": "Changes in Heartbeat",
+        "description": "Variations in heart rate, rhythm, or palpitations, which could be related to heart conditions, stress, or other factors.",
+        "image": "https://example.com/changes_in_heartbeat.jpg"
+      },
+      {
+        "name": "Swollen Joints",
+        "description": "Joint swelling and stiffness, often associated with arthritis, autoimmune diseases, or other inflammatory conditions.",
+        "image": "https://example.com/swollen_joints.jpg"
+      },
+      {
+        "name": "Pale Skin",
+        "description": "Skin that appears unusually pale or lacking color, which could indicate anemia, circulatory problems, or other medical issues.",
+        "image": "https://example.com/pale_skin.jpg"
+      },
+      {
+        "name": "Trouble Sleeping",
+        "description": "Difficulty falling asleep or staying asleep, often related to insomnia, stress, or other sleep disorders.",
+        "image": "https://example.com/trouble_sleeping.jpg"
+      },
+      {
+        "name": "Excessive Thirst or Hunger",
+        "description": "Intense and persistent feelings of thirst or hunger, which could be symptoms of diabetes or other metabolic disorders.",
+        "image": "https://example.com/excessive_thirst_hunger.jpg"
+      },
+      {
+        "name": "Restlessness",
+        "description": "Inability to sit still or constant movement, often associated with anxiety, hyperactivity, or certain medical conditions.",
+        "image": "https://example.com/restlessness.jpg"
+      },
+      {
+        "name": "Bloating",
+        "description": "Abdominal discomfort characterized by a feeling of fullness and tightness, often related to gastrointestinal issues, dietary factors, or hormonal changes.",
+        "image": "https://example.com/bloating.jpg"
+      },
+      {
+        "name": "Itchy Skin",
+        "description": "Skin that is irritated and prone to scratching, which may result from allergies, skin conditions, or insect bites.",
+        "image": "https://example.com/itchy_skin.jpg"
+      },
+      {
+        "name": "Sudden Weight Change",
+        "description": "Rapid and unexplained gain or loss of weight, which could be related to underlying health conditions or changes in lifestyle.",
+        "image": "https://example.com/sudden_weight_change.jpg"
+      },
+      {
+        "name": "Blood in Stool or Urine",
+        "description": "Presence of blood in bowel movements or urine, which may indicate gastrointestinal bleeding, urinary tract issues, or other problems.",
+        "image": "https://example.com/blood_in_stool_urine.jpg"
+      },
+      {
+        "name": "Persistent Coughing or Sneezing",
+        "description": "Long-lasting coughing or sneezing, often associated with chronic respiratory conditions, allergies, or irritants.",
+        "image": "https://example.com/persistent_cough_sneeze.jpg"
+      },
+      {
+        "name": "Hoarseness",
+        "description": "Raspy or rough voice, often caused by irritation of the vocal cords, infections, or other factors.",
+        "image": "https://example.com/hoarseness.jpg"
+      },
+      {
+        "name": "Irregular Menstrual Cycle",
+        "description": "Changes in the timing, duration, or flow of menstrual periods, which may indicate hormonal imbalances, polycystic ovary syndrome (PCOS), or other conditions.",
+        "image": "https://example.com/irregular_menstrual_cycle.jpg"
+      },
+      {
+        "name": "Leg Swelling",
+        "description": "Abnormal enlargement of the legs, often caused by fluid retention or circulatory problems.",
+        "image": "https://example.com/leg_swelling.jpg"
+      },
+      {
+        "name": "Nausea after Eating",
+        "description": "Feeling of queasiness or discomfort in the stomach after consuming a meal.",
+        "image": "https://example.com/nausea_after_eating.jpg"
+      }
+    ]
+  }
+    

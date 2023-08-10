@@ -1,0 +1,45 @@
+{
+  "symptoms": [
+    {
+      "name": "Fever",
+      "description": "Elevated body temperature, often a sign of infection or inflammation.",
+      "image": "https://img.freepik.com/free-photo/young-woman-with-fever-holding-thermometer_1208-7.jpg?w=740&t=st=1691683075~exp=1691683675~hmac=eb1a460013bf3be7c6b073a2d9f9d48800a912151a1ed224de7a94a4b6896fbb"
+    },
+    {
+      "name": "Cough",
+      "description": "A sudden, forceful expulsion of air from the lungs, typically caused by respiratory infections or irritants.",
+      "image": "https://img.freepik.com/free-photo/young-man-suffering-from-cough-shirt-looking-ill_176474-20423.jpg?w=740&t=st=1691683512~exp=1691684112~hmac=ebfb78ab46ffa43f398819d85c5ea32b98ea9dc4491e67e21ab6239a04894301"
+    },
+    {
+      "name": "Shortness of Breath",
+      "description": "Difficulty breathing, which may indicate respiratory, cardiovascular, or other systemic issues.",
+      "image": "https://img.freepik.com/free-photo/beautiful-woman-yawning-shirt-looking-sleepy-front-view_176474-103855.jpg?w=740&t=st=1691683596~exp=1691684196~hmac=d0a69b1e016fba672d295be13ddfb0732715d75f8be5a85a06a5b1338c5a9885"
+    },
+    {
+      "name": "Fatigue",
+      "description": "Persistent tiredness and lack of energy, often associated with various medical conditions.",
+      "image": "https://img.freepik.com/free-photo/worn-out-hiker-standing-forest-leaning-stem_613910-9448.jpg?w=740&t=st=1691683701~exp=1691684301~hmac=54151b05853701565ea5d46efe790d49f70dd2d161dbc1f6851658aa6974ed7f"
+    },
+    {
+      "name": "Muscle or Joint Pain",
+      "description": "Aching or discomfort in muscles or joints, which can be caused by infections, inflammation, or other factors.",
+      "image": "https://img.freepik.com/premium-photo/medical-concept-man-suffering-with-knee-painful-skeleton-x-ray_46370-1911.jpg?w=740"
+    },
+    {
+      "name": "Headache",
+      "description": "Pain or discomfort in the head, often due to tension, migraines, or other underlying causes.",
+      "image": "https://img.freepik.com/free-photo/nervous-stressed-female-student-feeling-headache-studying-cafe_1163-5168.jpg?w=740&t=st=1691683821~exp=1691684421~hmac=538da152c47c39f1e5e63bb4b476104f3fea22beb4a8db91ea289aa649e9f96d"
+    },
+    {
+      "name": "Nausea and Vomiting",
+      "description": "Feeling of sickness and the act of expelling stomach contents, commonly caused by infections, pregnancy, or other factors.",
+      "image": "https://img.freepik.com/premium-photo/upset-sick-woman-suffers-from-nausea-vomiting-due-digestive-belly-illness-problems_122732-2544.jpg?w=740"
+    },
+    {
+      "name": "Diarrhea",
+      "description": "Frequent, loose, or watery bowel movements, often caused by infections, dietary issues, or other factors.",
+      "image": "https://img.freepik.com/free-photo/woman-sitting-bed-with-abdominal-pain-pressing-her-hand-her-stomach_1150-26076.jpg?w=740&t=st=1691683930~exp=1691684530~hmac=9900c2943eb1b88f03b03d78c398fea5d1ceba7da4d54bcb701f19cff47b11f9"
+    }
+  ]
+}
+  
