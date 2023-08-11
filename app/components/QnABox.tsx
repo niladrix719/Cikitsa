@@ -1,8 +1,13 @@
 'use client'
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 type QnAProps = {
   setQuestionNumber: React.Dispatch<React.SetStateAction<number>>;
+  question: string;
+  opt1: string;
+  opt2: string;
+  id: number;
 };
 
 const QnABox = (props: QnAProps) => {
@@ -21,19 +26,19 @@ const QnABox = (props: QnAProps) => {
 
   return (
     <div className='flex flex-col items-center p-4'>
-      <h2 className='text-3xl font-semibold mb-8'>Question 1: How long have you been experiencing the headache?</h2>
+      <h2 className='text-3xl font-semibold mb-8'>{props.question}</h2>
       <div className='options'>
         <button
-          className={`bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-md mr-2 mb-2 ${selectedOption === 'Less than a day' ? 'bg-gray-300' : ''}`}
-          onClick={() => handleOptionClick('Less than a day')}
+          className={`bg-gray-200 hover:bg-gray-300 text-gray-700 px-16 py-2 rounded-md mr-2 mb-2 ${selectedOption === props.opt1 ? 'bg-gray-300' : ''}`}
+          onClick={() => handleOptionClick(props.opt1)}
         >
-          Less than a day
+          {props.opt1}
         </button>
         <button
-          className={`bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-md mr-2 mb-2 ${selectedOption === 'More than a day' ? 'bg-gray-300' : ''}`}
-          onClick={() => handleOptionClick('More than a day')}
+          className={`bg-gray-200 hover:bg-gray-300 text-gray-700 px-16 py-2 rounded-md mr-2 mb-2 ${selectedOption === props.opt2 ? 'bg-gray-300' : ''}`}
+          onClick={() => handleOptionClick(props.opt2)}
         >
-          More than a day
+          {props.opt2}
         </button>
       </div>
       <div className='relative mt-4'>
@@ -43,11 +48,8 @@ const QnABox = (props: QnAProps) => {
           onChange={handleInputChange}
           className='border-b-2 border-black w-96 px-2 py-2 focus:outline-none'
         />
-        <div className='absolute top-1/2 transform -translate-y-1/2 right-[-1.1rem] text-gray-700 pointer-events-none'>
-          <svg xmlns='http://www.w3.org/2000/svg' className='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M9 5l7 7-7 7'></path>
-          </svg>
-        </div>
+        {props.id <= 3 && <span onClick={() => props.setQuestionNumber(props.id + 1)} className='cursor-pointer text-2xl'>&gt;</span>}
+        {props.id === 4 && <Link href='/results' className='cursor-pointer text-2xl'>&gt;</Link>}
       </div>
     </div>
   );

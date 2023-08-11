@@ -1,19 +1,19 @@
 {
   "symptoms": [
     {
-      "name": "Fever",
+      "name": "High Fever",
       "description": "Elevated body temperature, often a sign of infection or inflammation.",
       "image": "https://img.freepik.com/free-photo/young-woman-with-fever-holding-thermometer_1208-7.jpg?w=740&t=st=1691683075~exp=1691683675~hmac=eb1a460013bf3be7c6b073a2d9f9d48800a912151a1ed224de7a94a4b6896fbb"
     },
     {
-      "name": "Cough",
+      "name": "Hemoptysis",
       "description": "A sudden, forceful expulsion of air from the lungs, typically caused by respiratory infections or irritants.",
       "image": "https://img.freepik.com/free-photo/young-man-suffering-from-cough-shirt-looking-ill_176474-20423.jpg?w=740&t=st=1691683512~exp=1691684112~hmac=ebfb78ab46ffa43f398819d85c5ea32b98ea9dc4491e67e21ab6239a04894301"
     },
     {
-      "name": "Shortness of Breath",
-      "description": "Difficulty breathing, which may indicate respiratory, cardiovascular, or other systemic issues.",
-      "image": "https://img.freepik.com/free-photo/beautiful-woman-yawning-shirt-looking-sleepy-front-view_176474-103855.jpg?w=740&t=st=1691683596~exp=1691684196~hmac=d0a69b1e016fba672d295be13ddfb0732715d75f8be5a85a06a5b1338c5a9885"
+      "name": "Sore Throat",
+      "description": "Pain, irritation, or scratchiness in the throat, often caused by infections like strep throat or viral illnesses.",
+      "image": "https://img.freepik.com/free-photo/woman-feel-sick-touch-neck-have-sore-throat_176420-17490.jpg?w=740&t=st=1691745935~exp=1691746535~hmac=912917e097158ef94007e36a15c3045bb5d0141ca627055b90f6c6b8b48c65df"
     },
     {
       "name": "Fatigue",
@@ -39,7 +39,46 @@
       "name": "Diarrhea",
       "description": "Frequent, loose, or watery bowel movements, often caused by infections, dietary issues, or other factors.",
       "image": "https://img.freepik.com/free-photo/woman-sitting-bed-with-abdominal-pain-pressing-her-hand-her-stomach_1150-26076.jpg?w=740&t=st=1691683930~exp=1691684530~hmac=9900c2943eb1b88f03b03d78c398fea5d1ceba7da4d54bcb701f19cff47b11f9"
+    },
+    {
+      "name": "Chest Pain",
+      "description": "Discomfort or pain in the chest area, which could be related to heart, lung, or digestive issues.",
+      "image": "https://img.freepik.com/free-photo/medium-shot-man-with-chest-pain_23-2148998286.jpg?w=740&t=st=1691745603~exp=1691746203~hmac=47e1cc01fa5e3be76bb14574b435b584b7cf8be8b5a4d6d90b3654fa423545af"
+    },
+    {
+      "name": "Vision Changes",
+      "description": "Alterations in vision, such as blurriness, double vision, or loss of vision, which may result from eye conditions or systemic diseases.",
+      "image": "https://img.freepik.com/free-photo/doctor-testing-patient-eyesight_23-2149230017.jpg?w=740&t=st=1691745858~exp=1691746458~hmac=c26941b249069d5555f48761726bc53ec2b581d37654bd740b659f025650ae25"
+    },
+    {
+      "name": "Difficulty Swallowing",
+      "description": "Sensation of blockage or discomfort while swallowing, often associated with throat infections, gastroesophageal reflux, or other conditions.",
+      "image": "https://img.freepik.com/premium-photo/indian-sick-young-arab-man-touch-neck-suffer-from-angina-has-sore-throat-unhealthy-guy-painful_717737-14.jpg?w=826"
+    },
+    {
+      "name": "Changes in Urination",
+      "description": "Variations in urination patterns, such as frequency, color, or pain, which may indicate urinary tract infections, kidney issues, or diabetes.",
+      "image": "https://img.freepik.com/free-photo/close-up-male-s-hand-holding-container-with-urine-sample_171337-1523.jpg?w=740&t=st=1691746172~exp=1691746772~hmac=eb9a596dd2d043830f240e506cd2471268f990d9faf38a2dfcf21d1a89939d87"
+    },
+    {
+      "name": "Shortness of Breath",
+      "description": "Difficulty breathing, which may indicate respiratory, cardiovascular, or other systemic issues.",
+      "image": "https://img.freepik.com/free-photo/beautiful-woman-yawning-shirt-looking-sleepy-front-view_176474-103855.jpg?w=740&t=st=1691683596~exp=1691684196~hmac=d0a69b1e016fba672d295be13ddfb0732715d75f8be5a85a06a5b1338c5a9885"
+    },
+    {
+      "name": "Chills",
+      "description": "Uncontrollable shivering or cold sensation, often accompanying fever and indicating an infection.",
+      "image": "https://img.freepik.com/free-photo/sad-young-ill-caucasian-man-optical-glasses-wrapped-plaid-with-scarf-around-his-neck-wearing-winter-hat-holding-looking-thermometer-sitting-couch-living-room_141793-105580.jpg?w=740&t=st=1691745994~exp=1691746594~hmac=e6691fe4ea227f560c86162acf81a3fe6a4b23ccea03d1b5d9abc3e217e139ab"
+    },
+    {
+      "name": "Dizziness",
+      "description": "Feeling lightheaded, unsteady, or off-balance, which can result from various factors, including inner ear problems or low blood pressure.",
+      "image": "https://img.freepik.com/free-photo/unhealthy-sick-indian-female-suffers-from-insomnia-asian-young-woman-taking-painkiller-medicine-relieve-headache-pain-drink-glass-water-sitting-bed-her-bedroom-home-morning_7861-2045.jpg?w=826&t=st=1691746029~exp=1691746629~hmac=9f803c4ac72d51433795dd80dd100793a441ee2c46275fa4f55b63d379febb26"
+    },
+    {
+      "name": "Nasal Congestion",
+      "description": "Blockage or stuffiness in the nasal passages, commonly associated with respiratory infections or allergies.",
+      "image": "https://img.freepik.com/free-photo/close-up-young-adult-sick-home_23-2149134366.jpg?w=740&t=st=1691746067~exp=1691746667~hmac=1753e6a3dc9651aa925d31afd4bb61bec9602c013f1eb7b98171a17a57cb32b4"
     }
   ]
 }
-  

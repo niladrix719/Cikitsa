@@ -1,12 +1,12 @@
 {
     "symptoms": [
       {
-        "name": "Fever",
+        "name": "High Fever",
         "description": "Elevated body temperature, often a sign of infection or inflammation.",
         "image": "https://example.com/fever.jpg"
       },
       {
-        "name": "Cough",
+        "name": "Hemoptysis",
         "description": "A sudden, forceful expulsion of air from the lungs, typically caused by respiratory infections or irritants.",
         "image": "https://example.com/cough.jpg"
       },
@@ -252,4 +252,3 @@
       }
     ]
   }
-    
