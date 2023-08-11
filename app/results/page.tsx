@@ -3,8 +3,9 @@ import React from 'react'
 import Image from 'next/image'
 import { useState, useEffect } from 'react';
 import LoadingAnimation from "../components/LoadingAnimation";
+import Link from 'next/link';
 
-function page() {
+function Results() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -23,7 +24,7 @@ function page() {
         <p className='text-xl font-semibold mb-8'>Possible Cause: Prolonged history of smoking.</p>
         <p className='mb-8'>Based on your extended period of smoking, it is essential to be aware of the significant risk factors associated with this habit. Smoking has been closely linked to the development of lung cancer, and the cumulative effects over time contribute to this elevated probability. It's crucial to consider taking proactive measures to address this risk, such as seeking medical advice, adopting a smoking cessation plan, and undergoing regular health screenings to detect any potential early signs of lung cancer.</p>
         <div>
-          <button className='bg-gray-200 hover:bg-gray-300 text-gray-700 px-8 py-2 rounded-md mr-2 mb-2'>See prevention methods</button>
+          <Link href='/preventions' className='bg-gray-200 hover:bg-gray-300 text-gray-700 px-8 py-2 rounded-md mr-2 mb-2'>See prevention methods</Link>
           <button className='bg-gray-200 hover:bg-gray-300 text-gray-700 px-8 py-2 rounded-md mr-2 mb-2'>Contact a Doctor</button>
         </div>
       </div>}
@@ -32,4 +33,4 @@ function page() {
   )
 }
 
-export default page
+export default Results

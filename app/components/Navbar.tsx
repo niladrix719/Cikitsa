@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className='flex space-x-10 items-center'>
         <Link href='/' className='cursor-pointer'>Home</Link>
         <h1 className='cursor-pointer'>About</h1>
-        <h1 className='cursor-pointer'>Help Improve Predictions</h1>
+        <Link href='/improve_predictions' className='cursor-pointer'>Help Improve Predictions</Link>
         <h1 className='cursor-pointer'>Login</h1>
         <h1 className='cursor-pointer bg-blue-500 text-white px-4 py-2 rounded-md'>Signup</h1>
       </div>
