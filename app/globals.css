@@ -25,3 +25,35 @@ body {
     )
     rgb(var(--background-start-rgb)); */
 }
+
+
+.option
+{
+  transition: 0.2s ease-in-out;
+}
+
+.option:hover
+{
+  transform: scale(1.04);
+}
+
+.clicked
+{
+  box-shadow: 0 0 4px 2px rgba(4, 79, 239, 0.3);
+  border: 0.5px solid #4E80EE;
+}
+/* 
+.clicked h2
+{
+  transition: 1s ease-in-out;
+  position: relative;
+}
+
+.clicked h2::after
+{
+  content: '\e86c';
+  font-family: 'Material Icons';
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
