@@ -48,8 +48,8 @@ const QnABox = (props: QnAProps) => {
           onChange={handleInputChange}
           className='border-b-2 border-black w-96 px-2 py-2 focus:outline-none'
         />
-        {props.id <= 3 && <span onClick={() => props.setQuestionNumber(props.id + 1)} className='cursor-pointer text-2xl'>&gt;</span>}
-        {props.id === 4 && <Link href='/results' className='cursor-pointer text-2xl'>&gt;</Link>}
+        {props.id <= 5 && <span onClick={() => props.setQuestionNumber(props.id + 1)} className='cursor-pointer text-2xl'>&gt;</span>}
+        {props.id === 6 && <Link href='/results' className='cursor-pointer text-2xl'>&gt;</Link>}
       </div>
     </div>
   );
