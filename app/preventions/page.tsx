@@ -31,7 +31,7 @@ function Preventions() {
           <li>Stay physically active and maintain a healthy weight.</li>
           <li>Protect yourself from radon exposure.</li>
           <li>Get regular exercise and stay physically active.</li>
-          <li>Consider regular check-ups and screenings if you're at high risk.</li>
+          <li>Consider regular check-ups and screenings if you&apos;re at high risk.</li>
         </ul>
         <p className="text-xl mb-0">
           Remember, making healthy lifestyle choices can significantly lower your risk of developing lung cancer.
